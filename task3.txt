@@ -1,0 +1,15 @@
+QUERY 1
+
+SELECT  quantity, instrument_type
+FROM rented_instruments
+WHERE rental_period_start >= 20210101 AND rental_period_start <= 20210129;
+
+QUERY 2
+
+
+SELECT AVG(quantity)
+FROM rented_instruments
+WHere rental_period_start >= 20210101 AND rental_period_start <= 20211231 
+
+  
+
